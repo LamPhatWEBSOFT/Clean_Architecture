@@ -5,7 +5,7 @@ import com.example.clean_architecture.data.BookmarkDataSource
 import com.example.cleanarchitecture.framework.db.BookmarkEntity
 import com.example.cleanarchitecture.framework.db.ReaderDatabase
 import com.raywenderlich.android.majesticreader.domain.Bookmark
-import com.raywenderlich.android.majesticreader.domain.Document
+import com.example.clean_architecture.domain.Document
 
 class RoomBookmarkDataSource(context: Context): BookmarkDataSource {
     private val bookmarkDao = ReaderDatabase.getInstance(context).bookmarkDao()

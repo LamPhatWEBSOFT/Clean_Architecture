@@ -4,7 +4,7 @@ import android.content.Context
 import com.example.clean_architecture.data.DocumentDataSource
 import com.example.cleanarchitecture.framework.db.DocumentEntity
 import com.example.cleanarchitecture.framework.db.ReaderDatabase
-import com.raywenderlich.android.majesticreader.domain.Document
+import com.example.clean_architecture.domain.Document
 
 class RoomDocumentDataSource(val context: Context): DocumentDataSource {
     private val documentDao = ReaderDatabase.getInstance(context).documentDao()

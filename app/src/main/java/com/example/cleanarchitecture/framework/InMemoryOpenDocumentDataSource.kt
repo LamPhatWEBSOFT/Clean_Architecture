@@ -1,7 +1,7 @@
 package com.example.cleanarchitecture.framework
 
 import com.example.clean_architecture.data.OpenDocumentDataSource
-import com.raywenderlich.android.majesticreader.domain.Document
+import com.example.clean_architecture.domain.Document
 
 class InMemoryOpenDocumentDataSource: OpenDocumentDataSource {
     private var openDocument: Document = Document.EMPTY

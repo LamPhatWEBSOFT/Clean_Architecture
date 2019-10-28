@@ -1,7 +1,6 @@
 package com.example.cleanarchitecture.framework.db
 
 import androidx.room.*
-import com.raywenderlich.android.majesticreader.domain.Document
 
 @Dao
 interface DocumentDao {
